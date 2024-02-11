@@ -1,0 +1,118 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.81), rgba(255, 255, 255, 0.81)), url('public/decorative-background.png');
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center; /* Center align everything */
+}
+
+header {
+    background-size: cover;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 30px;
+}
+
+header h1 {
+    color: black; /* Set your name in black text */
+}
+
+.profile {
+    display: block;
+    margin: 20px auto;
+    max-width: 150px; /* Adjust the width as needed */
+    height: auto;
+    border-radius: 10%; /* Creates a rounded square effect */
+    border: 7px solid #000; /* Thick black border */
+    box-shadow: 0 0 10px #000; /* Optional: Adds a shadow for depth, remove if undesired */
+}
+
+/* Modernized table design */
+table {
+    width: 70%;
+    border-collapse: separate; /* Change to 'separate' to handle cell spacing */
+    border-spacing: 0; /* Remove space between cells */
+    margin: 20px auto; /* Center table */
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.36); /* Add shadow for depth */
+    border-radius: 5px; /* Rounded corners for modern look */
+    overflow: hidden; /* Ensures the border-radius applies to table */
+}
+
+th, td {
+    border-bottom: 2px solid #333; /* More prominent bottom border */
+    border-right: 2px solid #333; /* Add right border */
+    padding: 12px;
+    text-align: center;
+}
+
+th:last-child, td:last-child {
+    border-right: none; /* Remove right border for the last cell in each row */
+}
+
+th {
+    background-color: #007bff; /* Modern blue header */
+    color: white;
+}
+
+tr:last-child td {
+    border-bottom: none; /* Remove bottom border for the last row */
+}
+
+
+
+/* Styling for list with bullet points */
+ul {
+    list-style-type: disc; /* Reintroduce bullet points */
+    padding-left: 0; /* Remove padding */
+    display: inline-block; /* Center the list */
+    text-align: left; /* Align text to the left for list items */
+}
+
+li {
+    text-align: left; /* Ensure text alignment is consistent */
+    padding: 8px; /* Add some padding for aesthetics */
+}
+
+form {
+    text-align: left;
+    display: inline-block;
+    margin: 0 auto;
+}
+
+form .form-group {
+    margin-bottom: 10px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="submit"] {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+}
+
+form input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.non-decorative {
+
+    max-width: 400px; /* Ensure image is not wider than its container */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Display block to allow use of margin for centering */
+    margin: 20px auto; /* Center the image within the section */
+    border-radius: 25px; /* Optional: Adds rounded corners for a softer look */
+}
+
+section {
+    margin-bottom: 60px; /* Adjust the value as needed */
+}
